@@ -13,7 +13,7 @@ const Login = {
               <div class="form-group">
                 <input type="password" id="password" name="password" required placeholder="password">
               </div>
-              <button type="submit">Masuk</button>
+              <button type="submit" class="log">Masuk</button>
             </form>
             <div class="register-link">
               <p>Belum punya akun? <a href="#/register">DAFTAR DISINI</a></p>
@@ -27,11 +27,7 @@ const Login = {
   
 
   async afterRender() {
-    const loginContainer = document.querySelector('.login-container');
-    const loginBackground = document.querySelector('.login-background');
-    loginContainer.addEventListener('DOMContentLoaded', () => {
-      loginBackground.style.opacity = 0.5; 
-    });
+   
   }
 };
 

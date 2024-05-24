@@ -32,7 +32,7 @@ class App {
 
     // Pastikan elemen header dan footer ada sebelum mengakses classList
     if (header && footer) {
-      if (url === '/login') {
+      if (url === '/login' || url === '/register') {
         header.classList.add('hidden');
         footer.classList.add('hidden');
       } else {

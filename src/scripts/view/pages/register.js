@@ -1,13 +1,35 @@
 const Register = {
   async render() {
     return `
-      <h2>Register page</h2>
+    <div class="register-wrapper">
+      <img src="./Mask-group.png" alt="Logo" class="register-logo"></img>
+      <div class="register-container">
+        <div class="register-form">
+          <h2 class="log">Daftar</h2>
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <input type="text" id="username" name="username" required placeholder="username">
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required placeholder="email">
+            </div>
+            <div class="form-group">
+              <input type="password" id="password" name="password" required placeholder="password">
+            </div>
+            <button type="submit" class="log">Daftar</button>
+          </form>
+          <div class="register-link">
+            <p>Sudah punya akun? <a href="#/login">MASUK DISINI</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
     `;
   },
  
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    
   },
 };
- 
+
 export default Register;
