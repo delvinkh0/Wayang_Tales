@@ -1,21 +1,23 @@
-//index.js
-
-import 'regenerator-runtime'; /* for async await transpile */
+import 'regenerator-runtime'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  
 import '../styles/main.css';
 import '../styles/responsive.css';
+import '../styles/page.css';
+import '../styles/login.css';
+import '../styles/register.css';
 import App from './view/app';
-
 
 const app = new App({
     button: document.querySelector('#hamburgerButton'),
     drawer: document.querySelector('#navigationDrawer'),
     content: document.querySelector('#mainContent'),
-  });
+});
 
-  window.addEventListener('hashchange', () => {
+window.addEventListener('hashchange', () => {
     app.renderPage();
-  });
-   
-  window.addEventListener('load', () => {
+});
+
+window.addEventListener('load', () => {
     app.renderPage();
-  });
+});

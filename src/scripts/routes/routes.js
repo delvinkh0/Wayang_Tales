@@ -1,12 +1,15 @@
+//routes.js
 import Beranda from '../view/pages/beranda';
-import Profile from '../view/pages/profile';
+import Login from '../view/pages/login';
+import Register from '../view/pages/register';
 import Tentang from '../view/pages/tentang';
  
 const routes = {
   '/': Beranda, // default page
   '/beranda': Beranda,
-  '/profile': Profile,
+  '/login': Login,
   '/tentang': Tentang,
+  '/register' : Register
 };
  
 export default routes;
