@@ -26,7 +26,22 @@ class App {
     const page = routes[url];
     this._content.innerHTML = await page.render();
     await page.afterRender();
+
+    const header = document.getElementById('header');
+    const footer = document.getElementById('footer');
+
+    // Pastikan elemen header dan footer ada sebelum mengakses classList
+    if (header && footer) {
+      if (url === '/login' || url === '/register') {
+        header.classList.add('hidden');
+        footer.classList.add('hidden');
+      } else {
+        header.classList.remove('hidden');
+        footer.classList.remove('hidden');
+      }
+    }
   }
+
 }
  
 export default App;
