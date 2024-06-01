@@ -3,14 +3,16 @@ import Profile from '../view/pages/profile';
 import Register from '../view/pages/register';
 import Tentang from '../view/pages/tentang';
 import Login from '../view/pages/login';
- 
+import Pesan_tiket from '../view/pages/pesan_tiket';
+
 const routes = {
   '/': Beranda, // default page
   '/beranda': Beranda,
   '/profile': Profile,
   '/tentang': Tentang,
   '/login' : Login,
-  '/register' : Register
+  '/register' : Register,
+  '/pesan_tiket' : Pesan_tiket,
 };
  
 export default routes;
