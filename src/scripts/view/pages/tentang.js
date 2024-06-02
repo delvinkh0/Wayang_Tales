@@ -6,7 +6,7 @@ const Tentang = {
     },
    
     async afterRender() {
-      // Fungsi ini akan dipanggil setelah render()
+  
     },
   };
    
