@@ -35,7 +35,7 @@ class App {
       if (url === '/login' || url === '/register') {
         header.classList.add('hidden');
         footer.classList.add('hidden');
-      } else if (url === '/pesan_tiket') {
+      } else if (url === '/pesan_tiket' || '/pembayaran') {
         header.classList.remove('hidden');
         footer.classList.add('hidden');
       } else {

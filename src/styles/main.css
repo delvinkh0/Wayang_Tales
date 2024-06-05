@@ -471,3 +471,24 @@ button:hover {
 .Pesan-container button:hover {
   opacity: 0.8;
 }
+
+/* Pembayaran  */
+.barcode-img {
+  height: 350px;
+  width: auto; /* Menjaga rasio aspek gambar */
+}
+
+.barcode {
+  font-size: 17px; 
+  font-family: "Cinzel Decorative", serif;
+  color: grey;
+  text-align: center; 
+  margin: 20px 0;
+}
+
+.timing {
+  font-size: 18px; /* Mengatur ukuran font untuk timing */
+  color: #555; /* Mengatur warna teks */
+  text-align: center; /* Mengatur teks agar rata tengah */
+  margin-top: 10px; /* Margin atas untuk memberi jarak antara gambar dan teks timing */
+}
