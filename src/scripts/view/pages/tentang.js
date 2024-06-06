@@ -1,4 +1,4 @@
-const Tentang = {
+const Tentang = { 
   async render() {
     return `
       <img src="./walpaper.png" alt="Wallpaper Image" class="walpaper">
@@ -6,31 +6,27 @@ const Tentang = {
         <h2 class="judul2" style="padding-top: 30px;">Tentang Kami</h2>
       </div>
       <div class="container">
-        <div class="row justify-content-center" style="padding-top: 20px;">
-          <div class="col-md-6">
-            <div class="text">
-              <p>Wayang Tales merupakan web platform digital yang bertujuan untuk memperkenalkan,
-                mempromosikan dan memfasilitasi seni wayang secara online. Web ini akan menjadi pusat
-                informasi utama yang mengenai seni wayang, baik itu menyajikan sejarah wayang, tokoh-tokohnya,
-                jenis pertunjukan serta jadwal terkini dari berbagai pertunjukan wayang yang ada di seluruh
-                Indonesia.</p>
-            </div>
+      <div class="row justify-content-center" style="padding-top: 20px;">
+        <div class="col-md-6">
+          <div class="text">
+            <p>Wayang Tales merupakan web platform digital yang bertujuan untuk memperkenalkan, mempromosikan dan memfasilitasi seni wayang secara online. Web ini akan menjadi pusat informasi utama yang mengenai seni wayang, baik itu menyajikan sejarah wayang, tokoh-tokohnya, jenis pertunjukan serta jadwal terkini dari berbagai pertunjukan wayang yang ada di seluruh Indonesia.</p>
           </div>
-          <div class="col-md-6 text-center">
-            <img src="./image4.png" alt="Wayang Image" class="img-fluid" style="max-width: 80%; height: auto;">
-          </div>
-          <div class="col-md-6 text-center" style="margin-top: 20px;">
-            <img src="./image5.png" alt="Wayang Image" class="img-fluid" style="max-width: 60%; height: auto;">
-          </div>
-          <div class="col-md-6">
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="./image4.png" alt="Wayang Image" class="img-fluid img-block" style="max-width: 80%; height: auto;">
+        </div>
+        <div class="col-md-6 text-center" style="margin-top: 20px;">
+          <img src="./image5.png" alt="Wayang Image" class="img-fluid img-block" style="max-width: 60%; height: auto;">
+        </div>
+        <div class="col-md-6">
           <h2 class="text1" style="margin-top: 10px;">Mengapa Wayang Tales?</h2>
-            <div class="text">
-              <p>Dengan memanfaatkan teknologi digital, web ini dapat menciptakan solusi yang tidak hanya meningkatkan aksesibilitas informasi tentang seni wayang, tetapi juga memperkuat pengaruh dan keberlangsungan seni wayang sebagai bagian penting dari warisan budaya Indonesia.</p>
-            </div>
+          <div class="text">
+            <p>Dengan memanfaatkan teknologi digital, web ini dapat menciptakan solusi yang tidak hanya meningkatkan aksesibilitas informasi tentang seni wayang, tetapi juga memperkuat pengaruh dan keberlangsungan seni wayang sebagai bagian penting dari warisan budaya Indonesia.</p>
           </div>
         </div>
       </div>
-
+    </div>
+    
       <div class="text-center">
         <h2 class="judul4">Kontak Kami</h2>
       </div>
