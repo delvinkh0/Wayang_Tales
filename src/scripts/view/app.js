@@ -28,7 +28,7 @@ class App {
       nav.innerHTML = `
         <ul>
           <li><a href="#/beranda">Beranda</a></li>
-          <li><a href="#/artikel">Artikel</a></li>
+          <li><a href="#/artikel">Sejarah</a></li>
           <li><a href="#/pesan_tiket">Pesan Tiket</a></li>
           <li><a href="#/tentang">Tentang Kita</a></li>
           <li><a href="#/profile">Profile</a></li>
@@ -38,7 +38,7 @@ class App {
       nav.innerHTML = `
         <ul>
           <li><a href="#/beranda">Beranda</a></li>
-          <li><a href="#/artikel">Artikel</a></li>
+          <li><a href="#/artikel">Sejarah</a></li>
           <li><a href="#/pesan_tiket">Pesan Tiket</a></li>
           <li><a href="#/tentang">Tentang Kita</a></li>
           <li><a href="#/login">Login</a></li>

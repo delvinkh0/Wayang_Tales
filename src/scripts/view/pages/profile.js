@@ -11,7 +11,7 @@ const Profile = {
           </div>
           <div class="profile-info">
             <div class="profile-circle">
-              <img src="./image.png" alt="Edit Profile" class="edit-icon" id="edit-icon"> 
+              <img src="./icon.png" alt="Edit Profile" class="edit-icon" id="edit-icon"> 
               <input type="file" id="file-input" class="file-input" accept="image/*" style="display: none;">
               <div class="profile-image-wrapper">  
                 <img src="https://i.imgur.com/JgYD2nQ.jpg" alt="Profile Image" class="profile-image" id="profile-image">

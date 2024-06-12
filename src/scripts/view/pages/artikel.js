@@ -27,6 +27,38 @@ const Artikel = {
           </div>
         </div>
 
+        
+
+        <div class="sejarah">
+          <h2 class="tema1">Sejarah Wayang</h2>
+          <p class="judul1">Sejarah tentang wayang budaya indonesia</p>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="./wayang1.png" alt="Card Image 1" class="card-image">
+            <h6>Perkembangan Wayang</h6>
+            <p class="subtitle">Wayang kulit mulai populer di Jawa, terbuat dari kulit kerbau atau kambing yang diukir halus dan 
+            pertunjukan menggunakan layar dan lampu minyak untuk menciptakan bayangan.</p>
+          </div>
+          <div class="card">
+            <img src="./wayang2.png" alt="Card Image 2" class="card-image">
+            <h6>Upacara Wayang</h6>
+            <p class="subtitle">Upacara wayang kulit juga sering kali terkait dengan berbagai upacara adat dan ritual,
+             seperti upacara kelahiran, pernikahan, dan kematian. </p>
+          </div>
+          <div class="card">
+            <img src="./wayang3.png" alt="Card Image 3" class="card-image">
+            <h6>Asal Usul Wayang</h6>
+            <p class="subtitle">Wayang memiliki sejarah yang panjang dan kaya,
+             yang diyakini telah ada sejak lebih dari seribu tahun yang lalu</p>
+          </div>
+          <div class="card">
+            <img src="./wayang4.png" alt="Card Image 4" class="card-image">
+            <h6>Jenis -  Jenis Wayang</h6>
+            <p class="subtitle">Banyak berbagai jenis wayang antara lain : Wayang Kulit, Wayang Golek , Wayang Orang, Wayang Klitik dan sebagainnya.</p>
+          </div>
+        </div>
+
         <div class="wrapper">
           <div class="collapsible">
             <input type="checkbox" id="collapsible-toggle-1" class="collapsible-toggle" />
@@ -64,6 +96,11 @@ const Artikel = {
             </div>
           </div>
         </div>
+                
+        <div class="sejarah-museum">
+            <h2 class="tema">Sejarah Museum Wayang</h2>
+            <p class="content">Melansir dari situs resmi Dinas Kebudayaan DKI Jakarta, Museum Wayang mulanya merupakan gereja yang didirikan oleh kelompok kolonial Belanda VOC pada tahun 1640. Gedung ini kemudian diberi nama “de oude Hollandsche Kerk". Pada tahun 1733 gereja tersebut mengalami perbaikan, dan namanya dirubah menjadi “de nieuwe Hollandsche Kerk". Gedung ini kemudian beralih fungsi menjadi gudang milik perusahaan Geo Wehry & Co tahun 1912, sebelum kemudian pada 14 Agustus 1936 ditetapkan menjadi monumen. Kemudian gedung ini dibeli oleh Bataviaasch Genootschap van Kunsten en Wetenschappen yaitu lembaga yang menangani penelitian dalam bidang seni dan ilmu pengetahuan. Sebelum menjadi museum wayang, gedung ini juga pernah dijadikan museum dengan nama "de oude Bataviasche Museum" atau museum Batavia Lama pada tahun 1937. Selanjutnya pada tahun 1957 diserahkan kepada Lembaga Kebudayaan Indonesia (LKI) dan sejak itu nama museum diganti menjadi Museum Jakarta Lama. LKI kemudian menyerahkan gedung ini kepada Departemen Pendidikan dan Kebudayaan dan pada akhirnya pada tanggal 23 Juni 1968 oleh Dirjen Kebudayaan Departemen Pendidikan dan Kebudayaan, gedung museum diserahkan kepada Pemerintah DKI Jakarta.</p>
+          </div>
 
         <div class="second-row">
           <div class="column column5">
@@ -77,7 +114,10 @@ const Artikel = {
             <p>Wayang selalu diiringi dengan alunan musik tradisional Jawa. alat musik biasanya digunakan untuk mengiringi pagelaran wayang kulit adalah alat musik gamelan, yang terdiri dari Kendang, Gender, Bonang, Slentem, Rebab, Demung, Kenong, Kempul, Suling, dan gong. Dalang yang bertugas sebagai pemimpin gamelan juga membawa pemukul kayu yang disebut Cempala untuk memberi aba-aba kapan musik dimainkan dan musik seperti apa yang harus dimainkan.</p>
           </div>
         </div>
+
+        
       </div>
+      
     `;
   },
 
