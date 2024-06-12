@@ -76,6 +76,29 @@ const Beranda = {
           </div>
         </div>
 
+        <div class="text-center">
+  <h2 class="judul2" style="padding-top: 30px;">Galeri Museum Wayang</h2>
+</div>
+<div class="container">
+  <div class="row justify-content-center" style="padding-top: 20px;">
+    <div class="col-md-4">
+      <div class="image-gallery">
+        <img src="./museum.png" alt="Gallery Image 1" class="gallery-image" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image-gallery">
+        <img src="./museum2.png" alt="Gallery Image 2" class="gallery-image" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image-gallery">
+        <img src="./museum3.png" alt="Gallery Image 3" class="gallery-image" style="max-width: 115%; height: auto;">
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
         <div class="container1">
@@ -89,6 +112,10 @@ const Beranda = {
           </div>
         </div>
       </div>
+
+      
+
+
     `;
   },
 
