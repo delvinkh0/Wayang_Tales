@@ -7,11 +7,17 @@ const Pesan_tiket = {
           <img src="./Mask_group2.png" alt="Logo" class="login-logo"></img>
           <form id="pesanForm" action="#">
             <div class="form-group">
-              <input type="text" id="username" name="username" required placeholder="username">
+              <input type="text" id="username" name="username" required placeholder="nama lengkap">
             </div>
             <div class="form-group">
               <input type="date" id="date" name="date" required placeholder="Tanggal Pesan">
-            </div>              
+            </div>
+            <div class="form-group">
+              <input type="tel" id="tel" name="tel" required placeholder="no. HP">
+            </div>
+            <div class="form-group">
+              <input type="text" id="alamat" name="alamat" required placeholder="alamat">
+            </div>                 
             <button type="submit" class="log">Pesan Sekarang</button>
           </form>
         </div>

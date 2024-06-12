@@ -463,6 +463,30 @@ button{
 .collapsible-text p:last-child {
   margin-bottom: 0;
 }
+.collapsible-text .full-text {
+  display: none;
+}
+
+.collapsible-text .truncated-text {
+  display: inline;
+}
+
+.collapsible-text.open .full-text {
+  display: inline;
+}
+
+.collapsible-text.open .truncated-text {
+  display: none;
+}
+
+.read-more, .read-less {
+  color: green;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 14px;
+  text-decoration: underline;
+}
 
 
 .grid-container {
@@ -648,24 +672,25 @@ button{
 
 
 .Pesan-container input[type="text"],
-.Pesan-container input[type="date"] {
+.Pesan-container input[type="date"], 
+.Pesan-container input[type="tel"]{
   width: 100%;
-  padding: 10px; 
-  margin-bottom: 10px; 
+  padding: 5px; 
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
-
 .Pesan-container input[type="text"],
-.Pesan-container input[type="date"] {
+.Pesan-container input[type="date"],
+.Pesan-container input[type="tel"] {
   background-color: #fff;
   color: #333;
 }
 
 .Pesan-container input[type="text"]:focus,
-.Pesan-container input[type="date"]:focus {
+.Pesan-container input[type="date"]:focus,
+.Pesan-container input[type="tel"]:focus {
   outline: none;
   box-shadow: 0 0 0 2px #a8985123;
 }
@@ -673,7 +698,7 @@ button{
 .Pesan-container button {
   background-color: rgba(122, 78, 2, 0.594);
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 5px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
